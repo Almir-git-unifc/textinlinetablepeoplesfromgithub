@@ -1,0 +1,21 @@
+.form-check-input{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
+
+.inpTot{
+    width: 30px;
+    height: 25px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.table{
+    font-size: 20px;
+  }
+
+  .container{
+    margin-top: 70px;
+  }
