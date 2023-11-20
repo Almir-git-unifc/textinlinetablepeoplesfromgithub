@@ -19,3 +19,20 @@
   .container{
     margin-top: 70px;
   }
+
+  .button{
+    border-radius: 8px;
+    background-color: #0375ff;
+
+    border-color: #fab2a3;
+    width: 75px;  
+    height: 40px;  
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+    .divbotoes{
+
+    display: flex;
+    justify-content: space-between;
+  }

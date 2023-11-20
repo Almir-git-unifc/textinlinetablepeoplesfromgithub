@@ -186,14 +186,10 @@ function Tablecheckbxbootstrap () {
       <div>
         <div className="container">
   <div className="row">
-    <div className="col-sm">
-    <button type='button' className='btn btn-primary btn1'> {' '} Carregar{' '} </button>
-    </div>
-    <div className="col-sm">
-    
-    </div>
-    <div className="col-sm">
-    <button  type='button'  className='btn btn-primary btn2' onClick={() => apagarStorage()} > Reiniciar{' '}</button>
+    <div className="col-sm xs divbotoes">
+    <button type='button' className='button btn1'> {' '} Carregar{' '} </button>
+
+    <button  type='button'  className='button btn2' onClick={() => apagarStorage()} > Reiniciar{' '}</button>
     </div>
   </div>
 </div>
@@ -214,7 +210,7 @@ function Tablecheckbxbootstrap () {
           <tbody>
             <tr className='lines-of-column'>
               <th scope='row'>01</th>
-              <td>Business Model Canvas- Lean Canvas canvanizer.com/</td>
+              <td><p className="txtQuest">Business Model Canvas- Lean Canvas tipo canvanizer</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -224,7 +220,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -234,9 +230,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>02</th>
-              <td>
-                Documento Requisitos (Requisit. de crud, telas, funcionalidade,
-                entid.)
+              <td><p className="txtQuest">Documento Requisitos (Requisit. de crud, telas, funcionalidade, entid.)</p>
               </td>
               <td className='status'>
                 <div>
@@ -247,7 +241,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -259,7 +253,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>03</th>
-              <td>Documento Casos de Uso detalhado (conf. requisitos)</td>
+              <td><p className="txtQuest">Documento Casos de Uso detalhado (conf. requisitos)</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -269,7 +263,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -281,7 +275,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>04</th>
-              <td>Projeto de Interface - Wireframes Interativo</td>
+              <td><p className="txtQuest">Projeto de Interface - Wireframes Interativo</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -291,7 +285,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -303,7 +297,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>05</th>
-              <td>Desenho de Arquitetura da Solução (C4 Model)</td>
+              <td><p className="txtQuest">Desenho de Arquitetura da Solução (C4 Model)</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -313,7 +307,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -325,7 +319,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>06</th>
-              <td>Definição do Framework de trabalho (descrição)</td>
+              <td><p className="txtQuest">Definição do Framework de trabalho (descrição)</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -335,7 +329,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -347,7 +341,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>07</th>
-              <td>Fez Diagrama de Classe ou Modelo de Dados</td>
+              <td><p className="txtQuest">Fez Diagrama de Classe ou Modelo de Dados</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -357,7 +351,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -369,9 +363,9 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>08</th>
-              <td>
+              <td><p className="txtQuest">
                 SWAGGER de Proj API REST/restful ou Diag da Arquitet
-                Tradicional(Ex: MVC)
+                Tradicional(Ex: MVC)</p>
               </td>
               <td className='status'>
                 <div>
@@ -382,7 +376,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -394,8 +388,8 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>09</th>
-              <td>
-                Deploy do Mock (Backend Simulado) mockapi.io ou dummyapi.io{' '}
+              <td><p className="txtQuest">
+                Deploy do Mock (Backend Simulado) mockapi.io ou dummyapi.io{' '}</p>
               </td>
               <td className='status'>
                 <div>
@@ -406,7 +400,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
                   </label>{' '}
                 </div>
@@ -418,7 +412,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>10</th>
-              <td>Layout mestre</td>
+              <td><p className="txtQuest">Layout mestre</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -428,7 +422,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -440,7 +434,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>11</th>
-              <td>Menus do Sistema</td>
+              <td><p className="txtQuest">Menus do Sistema</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -450,7 +444,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -462,7 +456,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>12</th>
-              <td>Funcionalidade de Controle de Usuários</td>
+              <td><p className="txtQuest">Funcionalidade de Controle de Usuários</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -472,7 +466,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -484,7 +478,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>13</th>
-              <td>Funcionalidades da Sprint 1</td>
+              <td><p className="txtQuest">Funcionalidades da Sprint 1</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -494,7 +488,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -506,7 +500,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>14</th>
-              <td>Planos de Testes</td>
+              <td><p className="txtQuest">Planos de Testes</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -516,7 +510,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -528,7 +522,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>15</th>
-              <td>Relatório de Testes</td>
+              <td><p className="txtQuest">Relatório de Testes</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -538,7 +532,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -550,7 +544,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>16</th>
-              <td>Link do site da aplicação: disponível até sua avaliação</td>
+              <td><p className="txtQuest">Link do site da aplicação: disponível até sua avaliação</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -560,7 +554,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -572,7 +566,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>17</th>
-              <td>aApresentar exemplos de teste previamente cadastrados</td>
+              <td><p className="txtQuest">Apresentar exemplos de teste previamente cadastrados</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -582,7 +576,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -594,7 +588,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>18</th>
-              <td>Credenciais de acesso para todos os perfis de usuário</td>
+              <td><p className="txtQuest">Credenciais de acesso para todos os perfis de usuário</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -604,7 +598,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -616,8 +610,8 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>19</th>
-              <td>
-                código fonte, link do GitHub, GitLab, Dropbox, Google Drive, etc
+              <td><p className="txtQuest">
+                código fonte, link do GitHub, GitLab, Dropbox, Google Drive, etc</p>
               </td>
               <td className='status'>
                 <div>
@@ -628,7 +622,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - B
                   </label>{' '}
                 </div>
@@ -644,9 +638,9 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>20</th>
-              <td>
+              <td><p className="txtQuest">
                 Códdigo Fone e artefatos armazenados (Link de gitHub,
-                GoogleDrive, etc)
+                GoogleDrive, etc)</p>
               </td>
               <td className='status'>
                 <div>
@@ -657,7 +651,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - C
                   </label>{' '}
                 </div>
@@ -669,7 +663,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>31</th>
-              <td>Link do aplicativo funcionando</td>
+              <td><p className="txtQuest">Link do aplicativo funcionando</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -679,7 +673,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - C
                   </label>{' '}
                 </div>
@@ -691,7 +685,7 @@ function Tablecheckbxbootstrap () {
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>22</th>
-              <td>Link do Video da sua apresentação do seu TCC</td>
+              <td><p className="txtQuest">Link do Video da sua apresentação do seu TCC</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -701,7 +695,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - C
                   </label>{' '}
                 </div>
@@ -717,7 +711,7 @@ function Tablecheckbxbootstrap () {
             {/** =================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>23</th>
-              <td>Aplicação deve ser 100% em Web</td>
+              <td><p className="txtQuest">Aplicação deve ser 100% em Web</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -739,7 +733,7 @@ function Tablecheckbxbootstrap () {
             {/** ==================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>24</th>
-              <td>Deve conter Login e Registro de Usuários</td>
+              <td><p className="txtQuest">Deve conter Login e Registro de Usuários</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -761,7 +755,7 @@ function Tablecheckbxbootstrap () {
             {/** ==================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>25</th>
-              <td>Integração Auth0, com Google, Facebook, Linkedin, etc</td>
+              <td><p className="txtQuest">Integração Auth0, com Google, Facebook, Linkedin, etc</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -783,7 +777,7 @@ function Tablecheckbxbootstrap () {
             {/** ====================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>26</th>
-              <td>Responsividade</td>
+              <td><p className="txtQuest">Responsividade</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -805,7 +799,7 @@ function Tablecheckbxbootstrap () {
             {/** ===================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>27</th>
-              <td>Controle de acesso a funcionalidades.</td>
+              <td><p className="txtQuest">Controle de acesso a funcionalidades.</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -827,8 +821,8 @@ function Tablecheckbxbootstrap () {
             {/** =================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>28</th>
-              <td>
-                O Menu do sistema dá acesso a todas as suas funcionalidades?
+              <td><p className="txtQuest">
+                O Menu do sistema dá acesso a todas as suas funcionalidades?</p>
               </td>
               <td className='status'>
                 <div>
@@ -851,7 +845,7 @@ function Tablecheckbxbootstrap () {
             {/** ==================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>29</th>
-              <td>O sistema tem no mínimo 4 funcionalidades</td>
+              <td><p className="txtQuest">O sistema tem no mínimo 4 funcionalidades</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -873,7 +867,7 @@ function Tablecheckbxbootstrap () {
             {/** ================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>30</th>
-              <td>Cada funcionalidade tem sua operaação de CRUD?</td>
+              <td><p className="txtQuest">Cada funcionalidade tem sua operaação de CRUD?</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -895,7 +889,7 @@ function Tablecheckbxbootstrap () {
             {/** ================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>31</th>
-              <td>O sistema tem exportação de dados em PDF ou excel</td>
+              <td><p className="txtQuest">O sistema tem exportação de dados em PDF ou excel</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -917,9 +911,9 @@ function Tablecheckbxbootstrap () {
             {/** ====================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>32</th>
-              <td>
+              <td><p className="txtQuest">
                 Há uma pesquisa por ID, lookup dos dados (combobox ou janela de
-                seleção)
+                seleção)</p>
               </td>
               <td className='status'>
                 <div>
@@ -942,7 +936,7 @@ function Tablecheckbxbootstrap () {
             {/** =================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>33</th>
-              <td>Há um sistema mestre-detalhe (entendo SPA)</td>
+              <td><p className="txtQuest">Há um sistema mestre-detalhe (entendo SPA)</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -964,9 +958,9 @@ function Tablecheckbxbootstrap () {
             {/** ==================================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>34</th>
-              <td>
+              <td><p className="txtQuest">
                 Tem 4 funcionalidades adicionais (exceto Login/Auth0, Cadastro
-                comum/SPA)
+                comum/SPA)</p>
               </td>
               <td className='status'>
                 <div>
@@ -989,9 +983,9 @@ function Tablecheckbxbootstrap () {
             {/** ============================================================================= */}
             <tr className='lines-of-column'>
               <th scope='row'>35</th>
-              <td>
+              <td><p className="txtQuest">
                 Estatística com 5 indicadores apresentados em Gráfico (Linha,
-                barra, etc)
+                barra, etc)</p>
               </td>
               <td className='status'>
                 <div>
@@ -1014,7 +1008,7 @@ function Tablecheckbxbootstrap () {
             {/** =============================================================================== */}
             <tr className='lines-of-column'>
               <th scope='row'>36</th>
-              <td>Banco de dados com 6 entidades NoSQL, ou 8 entidades SQL</td>
+              <td><p className="txtQuest">Banco de dados com 6 entidades NoSQL, ou 8 entidades SQL</p></td>
               <td className='status'>
                 <div>
                   {''}
@@ -1036,9 +1030,9 @@ function Tablecheckbxbootstrap () {
             {/** ================================================================================ */}
             <tr className='lines-of-column'>
               <th scope='row'>37</th>
-              <td>
+              <td><p className="txtQuest">
                 NÃO USAR Plataf. de Gestão de Conteúdo, como Wordpress, Drupal,
-                Joomla{' '}
+                Joomla{' '}</p>
               </td>
               <td className='status'>
                 <div>
