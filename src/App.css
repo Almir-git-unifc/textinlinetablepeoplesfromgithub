@@ -53,6 +53,7 @@
   #root {
     padding: 0.5em 2rem 0.5rem 2rem;
   }
+
 }
 
 
@@ -68,6 +69,9 @@
     width: 70px;
     height: 40px;
   }
+  .txtStat{
+    font-size: 15px;
+  }
 }
 
 
@@ -76,7 +80,7 @@
     font-size: 22px;
   }
   .container{
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .txtQuest{
@@ -87,8 +91,8 @@
     font-size: 15px;
   }
 
-  #root {
-    padding: 3px 5px 3px 5px;
+  .container{
+    margin-top: 10px;
   }
 
   .button{

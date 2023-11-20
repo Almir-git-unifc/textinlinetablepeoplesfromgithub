@@ -1,38 +1,65 @@
-.form-check-input{
-    margin-right: 5px;
-    width: 20px;
-    height: 20px;
-    justify-content: center;
+.form-check-input {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
 }
 
-.inpTot{
-    width: 30px;
-    height: 25px;
-    margin-right: 5px;
-    text-align: center;
+.inpTot {
+  width: 30px;
+  height: 25px;
+  margin-right: 5px;
+  text-align: center;
 }
 
-.table{
-    font-size: 20px;
+.table {
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 70px;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: #0375ff;
+
+  border-color: #fab2a3;
+  width: 150px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.divbotoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 55px;
+  }
+  .button {
+    width: 150px;
+    height: 50px;
   }
 
-  .container{
-    margin-top: 70px;
+}
+
+@media screen and (max-width: 568px) {
+  .container {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    margin-top: 20px;
   }
 
-  .button{
-    border-radius: 8px;
-    background-color: #0375ff;
-
-    border-color: #fab2a3;
-    width: 75px;  
-    height: 40px;  
-    margin-left: 5px;
-    margin-right: 5px;
+  .button {
+    width: 100px;
+    height: 50px;
   }
-
-    .divbotoes{
-
-    display: flex;
-    justify-content: space-between;
-  }
+}
