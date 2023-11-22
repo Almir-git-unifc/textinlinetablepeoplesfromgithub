@@ -1,7 +1,7 @@
 #root {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 5rem 15rem 5rem 15rem;
+  padding: 2.6rem 4rem 1.5rem 4rem;
   text-align: center;
 
   background-image: url(../src/assets/18.jpg);
@@ -11,25 +11,11 @@
 }
 
 
-@media screen and (max-width: 1400px) { 
-  #root {
-    margin: 0 auto;
-    padding: 3rem 5rem 3rem 5rem;
-  }
   .card {
-    padding: 2em;
-  }
-}
-
-@media screen and (max-width: 1200px) { 
-  #root {
-    padding: 2.6rem 4rem 1.5rem 4rem;
-  }
-  .card {
-    padding: 2em;
+    padding: 2rem;
   }
 
-}
+
 
 @media screen and (max-width: 1129px) { 
   #root {
@@ -69,7 +55,6 @@
   }
   .txtStat{
     font-size: 15px;
-
   }
 }
 
@@ -129,7 +114,7 @@
 
 
 
-@media screen and (max-width: 150px) { 
+@media screen and (max-width: 233px) { 
 
   #root {
     padding: 3px 5px 3px 5px;
@@ -139,15 +124,37 @@
   }
   
   .txtQuest{
-    font-size: 13px;
+    font-size: 11px;
+  }
+
+  .txtStat{
+    display: none
   }
 
 .button{
   font-size: small;
+  width: 50px;
+  height: 30px;
+}
+
+.btn1{
+  padding-left: 0;
 }
 
 .container{
   margin-top: 5px;
 }
 
+.title-app{
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.table th:nth-child(2) { /* Targets the Todo header */
+  padding: 8px;
+}
+
+.table th:nth-child(3) { /* Targets the Status header */
+  padding: 8px;
+}
 }
