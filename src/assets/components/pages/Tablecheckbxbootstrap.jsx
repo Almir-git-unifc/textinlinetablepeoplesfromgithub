@@ -662,7 +662,7 @@ function Tablecheckbxbootstrap () {
 
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
-              <th scope='row'>31</th>
+              <th scope='row'>21</th>
               <td><p className="txtQuest">Link do aplicativo funcionando</p></td>
               <td className='status'>
                 <div>
