@@ -662,7 +662,7 @@ function Tablecheckbxbootstrap () {
 
             {/** =========================================================================================== */}
             <tr className='lines-of-column'>
-              <th scope='row'>31</th>
+              <th scope='row'>21</th>
               <td><p className="txtQuest">Link do aplicativo funcionando</p></td>
               <td className='status'>
                 <div>
@@ -721,7 +721,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                     R Geral
                   </label>{' '}
                 </div>
@@ -743,7 +743,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -765,7 +765,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -787,7 +787,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -809,7 +809,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -833,7 +833,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -855,7 +855,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -877,7 +877,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -899,7 +899,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -924,7 +924,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -946,7 +946,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -959,8 +959,7 @@ function Tablecheckbxbootstrap () {
             <tr className='lines-of-column'>
               <th scope='row'>34</th>
               <td><p className="txtQuest">
-                Tem 4 funcionalidades adicionais (exceto Login/Auth0, Cadastro
-                comum/SPA)</p>
+                Tem 4 funcionalidades extras (exceto Login/Auth0, Cadastro/SPA)</p>
               </td>
               <td className='status'>
                 <div>
@@ -971,7 +970,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -984,7 +983,7 @@ function Tablecheckbxbootstrap () {
             <tr className='lines-of-column'>
               <th scope='row'>35</th>
               <td><p className="txtQuest">
-                Estatística com 5 indicadores apresentados em Gráfico (Linha,
+                Estatística de 5 indicadores em gráficos (Linha,
                 barra, etc)</p>
               </td>
               <td className='status'>
@@ -996,7 +995,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -1018,7 +1017,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>
@@ -1043,7 +1042,7 @@ function Tablecheckbxbootstrap () {
                     type='checkbox'
                     onChange={handleChange}
                   />
-                  <label className='form-check-label' htmlFor='fl11'>
+                  <label className='form-check-label txtStat' htmlFor='fl11'>
                   R Geral
                   </label>{' '}
                 </div>

@@ -8,15 +8,13 @@
   background-size: cover;
   background-position: center;
 
-
 }
-
 
 
 @media screen and (max-width: 1400px) { 
   #root {
     margin: 0 auto;
-    padding: 3em 5rem 3rem 5rem;
+    padding: 3rem 5rem 3rem 5rem;
   }
   .card {
     padding: 2em;
@@ -25,7 +23,7 @@
 
 @media screen and (max-width: 1200px) { 
   #root {
-    padding: 1.5em 4rem 1.5rem 4rem;
+    padding: 2.6rem 4rem 1.5rem 4rem;
   }
   .card {
     padding: 2em;
@@ -35,7 +33,7 @@
 
 @media screen and (max-width: 1129px) { 
   #root {
-    padding: 1.0rem 3rem 1.0rem 3rem;
+    padding: 2.3rem 3rem 1.0rem 3rem;
   }
   .card {
     padding: 1.5em;
@@ -51,15 +49,16 @@
 
 @media screen and (max-width: 768px) { 
   #root {
-    padding: 0.5em 2rem 0.5rem 2rem;
+    padding: 1.8rem 2rem 0.5rem 2rem;
   }
+
 }
 
 
 @media screen and (max-width: 568px) { 
   #root {
     margin: 0 auto;
-    padding: 0.3em 1rem 0.3rem 1rem;
+    padding: 1.5rem 1rem 0.3rem 1rem;
   }
   .card {
     padding: 1em;
@@ -68,15 +67,19 @@
     width: 70px;
     height: 40px;
   }
+  .txtStat{
+    font-size: 15px;
+
+  }
 }
 
 
 @media screen and (max-width: 360px) { 
-  .title-work{
+  .title-app{
     font-size: 22px;
   }
   .container{
-    margin-top: 30px;
+    margin-top: 10px;
   }
 
   .txtQuest{
@@ -87,8 +90,8 @@
     font-size: 15px;
   }
 
-  #root {
-    padding: 3px 5px 3px 5px;
+  .container{
+    margin-top: 10px;
   }
 
   .button{
