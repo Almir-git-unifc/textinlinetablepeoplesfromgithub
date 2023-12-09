@@ -36,6 +36,29 @@
   justify-content: space-between;
 }
 
+@media screen and (max-width: 1280) {
+  #root {
+    margin: 0rem;
+    padding: 2.6rem 4rem 1.5rem 4rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  #root {
+    padding: 2.3rem 3rem 1rem 3rem;
+  }
+  .card {
+    padding: 1.5em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .card {
+    padding: 1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     margin-top: 55px;
@@ -44,29 +67,104 @@
     width: 150px;
     height: 50px;
   }
-
+  #root {
+    padding: 2.3rem 1.8rem 1rem 1.8rem;
+  }
+  .txtStat {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 568px) {
+  #root {
+    padding: 2.3rem 1.5rem 1rem 1.5rem;
+  }
   .container {
     margin-top: 40px;
   }
-}
-
-@media screen and (max-width: 360px) {
-  .container {
-    margin-top: 20px;
+  table tbody tr th {
+    font-size: 15px;
   }
-
+  .txtQuest {
+    font-size: 17px;
+  }
+  .txtStat {
+    font-size: 10px;
+  }
   .button {
     width: 100px;
     height: 50px;
   }
+
 }
 
+@media screen and (max-width: 360px) {
 
-@media screen and (max-width: 150px) { 
-  .titlecol{
-    font-size: 15px;;
+  #root {
+    padding: 1rem 1.3rem 0.5rem 1.3rem;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+
+table tbody tr th {
+    font-size: 15px;
+  }
+  .txtQuest {
+    font-size: 15px;
+  }
+
+  .txtStat {
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (max-width: 270px) {
+  #root {
+    padding: 1rem 0.9rem 0.5rem 0.9rem;
+  }
+
+  .txtQuest {
+    font-size: 14px;
+  }
+
+  .txtStat {
+    font-size: 10px;
+  }
+
+  .container {
+    margin-top: 15px;
+  }
+
+  .table th:first-child {
+    display: none;
+  }
+
+  .titlecol {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 180px) {
+  #root {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+  }
+  .txtQuest {
+    font-size: 12px;
+  }
+  .txtTitCol {
+    font-size: 14px;
+    padding-top: 16px;
+    margin-bottom: 0rem;
+  }
+
+  .txtStat {
+    display: none;
+  }
+
+  .button {
+    font-size: 14px;
   }
 }
