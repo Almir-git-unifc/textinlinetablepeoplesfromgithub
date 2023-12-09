@@ -185,25 +185,25 @@ function Tablecheckbxbootstrap () {
     <>
       <div>
         <div className="container">
-  <div className="row">
-    <div className="col-sm xs divbotoes">
-    <button type='button' className='button btn1'> {' '} Carregar{' '} </button>
+            <div className="row">
+              <div className="col-sm xs divbotoes">
+              <button type='button' className='button btn1'> {' '} Carregar{' '} </button>
 
-    <button  type='button'  className='button btn2' onClick={() => apagarStorage()} > Reiniciar{' '}</button>
-    </div>
-  </div>
-</div>
+              <button  type='button'  className='button btn2' onClick={() => apagarStorage()} > Reiniciar{' '}</button>
+              </div>
+            </div>
+          </div>
 
         <div className='titlePage'></div>
         <br />
       </div>
       <div className='table-responsive'>
-        <table className='table table-hover table-primary'>
+        <table className='table table-hover table-primary opacity-50'>
           <thead>
             <tr>
-              <th scope='col titlecol'>#</th>
-              <th scope='col titlecol'>A fazer</th>
-              <th scope='col titlecol'>Status</th>
+              <th scope='col titlecol'><p className="txtTitCol">#</p></th>
+              <th scope='col titlecol'><p className="txtTitCol">A fazer</p></th>
+              <th scope='col titlecol'><p className="txtTitCol">Status</p></th>
             </tr>
           </thead>
 
@@ -222,6 +222,7 @@ function Tablecheckbxbootstrap () {
                   />
                   <label className='form-check-label txtStat' htmlFor='fl11'>
                     mod - A
+
                   </label>{' '}
                 </div>
               </td>
@@ -1053,7 +1054,7 @@ function Tablecheckbxbootstrap () {
           </tbody>
         </table>
       </div>
-      <spam></spam>
+      <span></span>
 
 
 

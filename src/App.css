@@ -1,47 +1,26 @@
 #root {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2.6rem 4rem 1.5rem 4rem;
-  text-align: center;
+  max-width: 1280px;
+
 
   background-image: url(../src/assets/18.jpg);
   background-size: cover;
   background-position: center;
-
 }
 
 
-  .card {
-    padding: 2rem;
-  }
-
-
-
-@media screen and (max-width: 1129px) { 
-  #root {
-    padding: 2.3rem 3rem 1.0rem 3rem;
-  }
-  .card {
-    padding: 1.5em;
-  }
-  
+.card {
+  padding: 2rem;
+  padding: 0;
 }
 
-@media screen and (max-width: 992px) { 
-  .card {
-    padding: 1em;
-  }
-}
-
-@media screen and (max-width: 768px) { 
-  #root {
-    padding: 1.8rem 2rem 0.5rem 2rem;
-  }
-
+.title-app{
+  text-align: center;
+  color: #7b5451;
 }
 
 
-@media screen and (max-width: 568px) { 
+
+@media screen and (max-width: 568px) {
   #root {
     margin: 0 auto;
     padding: 1.5rem 1rem 0.3rem 1rem;
@@ -49,112 +28,58 @@
   .card {
     padding: 1em;
   }
-  .button{
-    width: 70px;
-    height: 40px;
-  }
-  .txtStat{
+
+  .txtStat {
     font-size: 15px;
   }
 }
 
 
-@media screen and (max-width: 360px) { 
-  .title-app{
-    font-size: 22px;
-  }
-  .container{
-    margin-top: 10px;
-  }
 
-  .txtQuest{
-    font-size: 15px;
-  }
-
-  .txtStat{
-    font-size: 15px;
-  }
-
-  .container{
-    margin-top: 10px;
-  }
-
-  .button{
-    font-size: small;
-    width: 60px;
-    height: 40px;
-  }
-
-
-}
-
-
-@media screen and (max-width: 270px) { 
-  .txtQuest{
-    font-size: 14px;
-  }
-
-  .txtStat{
-    font-size: 15px;
-  }
-
-  .container{
-    margin-top: 15px;
-  }
-
-  .table th:first-child {
-    display: none;
-  }
-  
-  .titlecol{
-    font-size: 14px;
-  }
-
-}
-
-
-
-@media screen and (max-width: 233px) { 
-
+@media screen and (max-width: 233px) {
   #root {
     padding: 3px 5px 3px 5px;
   }
   .card {
     padding: 1em;
   }
-  
-  .txtQuest{
+
+  .txtQuest {
     font-size: 11px;
   }
 
-  .txtStat{
-    display: none
+  .txtStat {
+    display: none;
   }
 
-.button{
-  font-size: small;
-  width: 50px;
-  height: 30px;
+  .button {
+    font-size: small;
+    width: 80px;
+    height: 40px;
+  }
+
+  .btn1 {
+    padding-left: 0;
+justify-content: center;
+  }
+
+  .container {
+    margin-top: 5px;
+  }
+
+  .title-app {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+
+  .table th:nth-child(2) {
+    /* Targets the Todo header */
+    padding: 8px;
+  }
+
+  .table th:nth-child(3) {
+    /* Targets the Status header */
+    padding: 8px;
+  }
 }
 
-.btn1{
-  padding-left: 0;
-}
-
-.container{
-  margin-top: 5px;
-}
-
-.title-app{
-  font-size: 18px;
-  padding-top: 10px;
-}
-
-.table th:nth-child(2) { /* Targets the Todo header */
-  padding: 8px;
-}
-
-.table th:nth-child(3) { /* Targets the Status header */
-  padding: 8px;
-}
-}
